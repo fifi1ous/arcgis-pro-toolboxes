@@ -4,6 +4,8 @@ Sbírka Python toolboxů (`.pyt`) pro ArcGIS Pro.
 
 📖 **Dokumentace a stažení:** https://fifi1ous.github.io/arcgis-pro-toolboxes/
 
+[Dokmentace k nehlédnutí](https://fifi1ous.github.io/arcgis-pro-toolboxes/)
+
 > ⚠️ **Když něco nefunguje tak, jak má, restartuj ArcGIS Pro** – hlavně po importu nebo aktualizaci toolboxu.
 
 ## Toolboxes
