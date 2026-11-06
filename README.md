@@ -6,7 +6,7 @@ Sbírka Python toolboxů (`.pyt`) pro ArcGIS Pro.
 
 > ⚠️ **Když něco nefunguje tak, jak má, restartuj ArcGIS Pro** – hlavně po importu nebo aktualizaci toolboxu.
 
-## Toolboxy
+## Toolboxes
 
 ### Layout
 
