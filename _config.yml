@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------
+# GitHub Pages (Jekyll) – dokumentace ArcGIS Pro toolboxů
+# Web: https://fifi1ous.github.io/arcgis-pro-toolboxes/
+# Zdroj webu je složka docs/, sestavuje se přes GitHub Actions
+# (.github/workflows/pages.yml), které zároveň zabalí toolboxy do zipů.
+# ---------------------------------------------------------------
+title: Toolboxy pro ArcGIS Pro
+description: Dokumentace Python toolboxů pro ArcGIS Pro – co dělají, jak se ovládají a co umí
+lang: cs
+
+baseurl: "/arcgis-pro-toolboxes"
+url: "https://fifi1ous.github.io"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links   # odkazy na .md soubory se převedou na .html
+
+relative_links:
+  enabled: true
+  collections: false
+
+color_scheme: light
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  tokenizer_separator: /[\s/]+/
+
+aux_links:
+  "Repozitář na GitHubu":
+    - "https://github.com/fifi1ous/arcgis-pro-toolboxes"
+aux_links_new_tab: true
+
+gh_edit_link: true
+gh_edit_link_text: "Upravit tuto stránku na GitHubu"
+gh_edit_repository: "https://github.com/fifi1ous/arcgis-pro-toolboxes"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "tree"
+
+footer_content: "Toolboxy pro ArcGIS Pro. Když něco nefunguje, nejdřív restartuj ArcGIS Pro."
+
+back_to_top: true
+back_to_top_text: "Zpět nahoru"
+
+# Barevné rámečky (v .md: řádek `{: .warning }` nad odstavcem / citací)
+callouts:
+  warning:
+    title: Upozornění
+    color: red
+  important:
+    title: Důležité
+    color: yellow
+  note:
+    title: Poznámka
+    color: blue
+  tip:
+    title: Tip
+    color: green
+
+exclude:
+  - SABLONA_TOOLBOXU.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
